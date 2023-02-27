@@ -1,0 +1,44 @@
+.button {
+  &__primary {
+    @include font($small-font-size, $font-bold, $white-color, 3.75rem);
+    background-color: $blue-color;
+    border-radius: 3.438rem;
+    padding: 0 $p-5;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: $blue-alt-color;
+    }
+  }
+  &__secondary {
+    @include font($small-font-size, $font-bold, $blue-color, 3.75rem);
+    background: none;
+    border-radius: 3.438rem;
+    padding: 0 $p-5;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 0.125rem solid $blue-color;
+    &:hover {
+      color: $blue-alt-color;
+      border: 0.125rem solid $blue-alt-color;
+      .button__icon--down {
+        transform: translateY(0.1rem);
+      }
+    }
+  }
+  &__light {
+    background: none;
+    cursor: pointer;
+    @include font($normal-font-size, $font-medium, $blue-color, 1.75rem);
+    &:hover {
+      color: $blue-alt-color;
+      .button__icon--right {
+        transform: translateX(0.1rem);
+      }
+    }
+  }
+  &__icon {
+    // font-weight: $font-bold;
+    transition: 0.3s;
+  }
+}

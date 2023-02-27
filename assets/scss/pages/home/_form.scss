@@ -1,0 +1,26 @@
+.form {
+  &__group {
+    margin: $m-2 0;
+  }
+  &__label {
+    display: block;
+    padding-bottom: 0.313rem;
+    @include font($normal-font-size, $font-thin, $black-color, 1.25rem);
+  }
+  &__input,
+  &__textarea {
+    @include font($normal-font-size, $font-regular, $black-color, 1.25rem);
+    border: 1px solid $gray-color;
+    width: 100%;
+    border-radius: 0.313rem;
+    padding: 0.8rem;
+    transition: 0.3s;
+    &:focus {
+      border: 1px solid $blue-color;
+    }
+  }
+  &__submit {
+    justify-content: center;
+    align-items: center;
+  }
+}

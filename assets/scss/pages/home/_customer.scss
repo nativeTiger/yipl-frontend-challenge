@@ -1,0 +1,35 @@
+.customer {
+  background: url("/assets/images/background3.svg") no-repeat 6% 80%;
+  &__container {
+    border-radius: 1.5rem;
+    padding: $p-5 $p-3;
+    background: url("/assets/images/background3.svg") no-repeat 104% top,
+      linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  }
+  &__content {
+    padding-top: $p-3;
+  }
+  &__img {
+    width: 8.25rem;
+    height: 8.25rem;
+    border-radius: 50%;
+  }
+  &__data {
+    text-align: center;
+  }
+  &__title {
+    @include font($h3-font-size, $font-bold, $white-color, 3rem);
+  }
+  &__subtitle {
+    @include font($small-font-size, $font-regular, $white-color, 3rem);
+  }
+  &__quotes {
+    margin-top: $m-2;
+    @include font(
+      $h3-font-size,
+      $font-regular,
+      rgba(255, 255, 255, 0.9),
+      1.875rem
+    );
+  }
+}

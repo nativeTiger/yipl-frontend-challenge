@@ -1,0 +1,19 @@
+.services {
+  background: url("/assets/images/background1.svg") no-repeat left;
+  &__container {
+    row-gap: 2.5rem;
+  }
+  &__content {
+    background-color: $white-color;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 1.25rem;
+    padding: $p-6 $p-5;
+  }
+  &__title {
+    padding-top: $p-4;
+    @include font($h2-font-size, $font-bold, $black-color, 3.5rem);
+  }
+  &__description {
+    @include font($normal-font-size, $font-thin, $gray-color, 1.75rem);
+  }
+}

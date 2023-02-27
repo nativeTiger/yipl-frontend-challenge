@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YIPL-frontend-challenge</title>
+
+    <!--  Boxicons CSS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/global.min.css" />
+  </head>
+  <body>
+    <!--====== Scroll Top ========-->
+    <a href="#" class="scroll flex" id="scroll-top">
+      <i class="bx bx-chevrons-up scroll__icon"></i>
+    </a>
+
+    <!--============ Header ============-->
+    <header class="header" id="header">
+      <nav class="nav container flex">
+        <a href="#" class="logo flex">
+          <div class="logo__img flex">T</div>
+          <h2 class="logo__text">Trafalgar</h2>
+        </a>
+        <ul class="nav__list flex" id="nav-list">
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Find a doctor</a>
+          </li>
+          <li class="nav__item">
+            <a href="#mobile" class="nav__link">Apps</a>
+          </li>
+          <li class="nav__item">
+            <a href="#customer" class="nav__link">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a href="#article" class="nav__link">About us</a>
+          </li>
+        </ul>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--======== Home =============-->
+      <section class="home section" id="home">
+        <div class="container home__container grid">
+          <div class="home__data">
+            <h1 class="home__title">Virtual healthcare for you</h1>
+            <p class="home__subtitle">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+            <button type="button" class="button__primary">Consult today</button>
+          </div>
+          <img
+            src="./assets/images/home.svg"
+            alt="home-image"
+            class="home__img"
+          />
+        </div>
+      </section>
+
+      <!--======= Services ==========-->
+      <section class="services section" id="services">
+        <div class="container">
+          <h2 class="section__title text-center">Our services</h2>
+          <span class="section__subtitle text-center">
+            We provide to you the best choiches for you. Adjust it to your
+            health needs and make sure your undergo treatment with our highly
+            qualified doctors you can consult with us which type of service is
+            suitable for your health
+          </span>
+          <div class="services__container grid">
+            <figure class="services__content">
+              <img
+                src="assets/images/search.svg"
+                alt="search-doctor"
+                class="services__img"
+              />
+              <figcaption>
+                <h2 class="services__title">Search doctor</h2>
+                <p class="services__description">
+                  Choose your doctor from thousands of specialist, general, and
+                  trusted hospitals
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="services__content">
+              <img
+                src="assets/images/online-pharmacy.svg"
+                alt="online-pharmacy"
+                class="services__img"
+              />
+              <figcaption>
+                <h2 class="services__title">Online pharmacy</h2>
+                <p class="services__description">
+                  Buy your medicines with our mobile application with a simple
+                  delivery system
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="services__content">
+              <img
+                src="assets/images/consultation.svg"
+                alt="consultation"
+                class="services__img"
+              />
+              <figcaption>
+                <h2 class="services__title">Consultation</h2>
+                <p class="services__description">
+                  Free consultation with our trusted doctors and get the best
+                  recomendations
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="services__content">
+              <img
+                src="assets/images/details.svg"
+                alt="details"
+                class="services__img"
+              />
+              <figcaption>
+                <h2 class="services__title">Details info</h2>
+                <p class="services__description">
+                  Free consultation with our trusted doctors and get the best
+                  recomendations
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="services__content">
+              <img
+                src="assets/images/emergency.svg"
+                alt="emergency-care"
+                class="services__img"
+              />
+              <figcaption>
+                <h2 class="services__title">Emergency care</h2>
+                <p class="services__description">
+                  You can get 24/7 urgent care for yourself or your children and
+                  your lovely family
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="services__content">
+              <img
+                src="assets/images/tracking.svg"
+                alt="tracking"
+                class="services__img"
+              />
+              <figcaption>
+                <h2 class="services__title">Tracking</h2>
+                <p class="services__description">
+                  Track and save your medical history and health data
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!--======= Leading Health Care ======-->
+      <section class="leading section" id="leading">
+        <div class="container leading__container grid">
+          <div class="leading__data">
+            <h2 class="section__title section__title--left">
+              Leading healthcare providers
+            </h2>
+            <span class="section__subtitle">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it’s not just
+              work. We take pride in the solutions we deliver
+            </span>
+            <button type="button" class="button__secondary">Learn more</button>
+          </div>
+          <img
+            src="./assets/images/leading.svg"
+            alt="leading-health-care"
+            class="leading__img"
+          />
+        </div>
+      </section>
+
+      <!--===== Download our mobile apps ======-->
+      <section class="mobile section" id="mobile">
+        <div class="container mobile__container grid">
+          <div class="mobile__data">
+            <h2 class="section__title section__title--left">
+              Download our mobile apps
+            </h2>
+            <span class="section__subtitle">
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </span>
+            <button type="button" class="button__secondary">
+              Download
+              <i
+                class="bx bx-down-arrow-alt button__icon button__icon--down"
+              ></i>
+            </button>
+          </div>
+          <img
+            src="assets/images/mobileapps.svg"
+            alt="download-mobile-apps"
+            class="mobile__img"
+          />
+        </div>
+      </section>
+
+      <!--===== Customer ======-->
+      <section class="customer section" id="customer">
+        <div class="container customer__container">
+          <h2 class="section__title--white text-center">
+            What our customer are saying
+          </h2>
+          <div class="swiper swiper__customer">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="customer__content">
+                  <div class="customer__data">
+                    <img
+                      src="assets/images/customer.svg"
+                      alt="customer-image"
+                      class="customer__img"
+                    />
+                    <div class="">
+                      <h3 class="customer__title">Edward Newgate</h3>
+                      <span class="customer__subtitle">Founder Circle</span>
+                    </div>
+                  </div>
+                  <p class="customer__quotes">
+                    "Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely"
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customer__content">
+                  <div class="customer__data">
+                    <img
+                      src="assets/images/customer.svg"
+                      alt="customer-image"
+                      class="customer__img"
+                    />
+                    <div class="">
+                      <h3 class="customer__title">Edward Newgate</h3>
+                      <span class="customer__subtitle">Founder Circle</span>
+                    </div>
+                  </div>
+                  <p class="customer__quotes">
+                    "Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely"
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customer__content">
+                  <div class="customer__data">
+                    <img
+                      src="assets/images/customer.svg"
+                      alt="customer-image"
+                      class="customer__img"
+                    />
+                    <div class="">
+                      <h3 class="customer__title">Edward Newgate</h3>
+                      <span class="customer__subtitle">Founder Circle</span>
+                    </div>
+                  </div>
+                  <p class="customer__quotes">
+                    "Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely"
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Check out our latest article ======-->
+      <section class="article section" id="article">
+        <div class="container">
+          <h2 class="section__title text-center">
+            Check out our latest article
+          </h2>
+          <div class="article__container grid">
+            <figure class="article__content">
+              <img
+                src="assets/images/article1.svg"
+                alt="article1"
+                class="article__img"
+              />
+              <figcaption class="article__data">
+                <h3 class="article__title">
+                  Disease detection, check up in the laboratory
+                </h3>
+                <p class="article__description">
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </p>
+                <button class="button__light">
+                  Read more
+                  <i
+                    class="bx bx-right-arrow-alt button__icon button__icon--right"
+                  ></i>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="article__content">
+              <img
+                src="assets/images/article2.svg"
+                alt="article2"
+                class="article__img"
+              />
+              <figcaption class="article__data">
+                <h3 class="article__title">
+                  Herbal medicines that are safe for consumption
+                </h3>
+                <p class="article__description">
+                  Herbal medicine is very widely used at this time because of
+                  its very good for your health...
+                </p>
+                <button class="button__light">
+                  Read more
+                  <i
+                    class="bx bx-right-arrow-alt button__icon button__icon--right"
+                  ></i>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="article__content">
+              <img
+                src="assets/images/article3.svg"
+                alt="article3"
+                class="article__img"
+              />
+              <figcaption class="article__data">
+                <h3 class="article__title">
+                  Natural care for healthy facial skin
+                </h3>
+                <p class="article__description">
+                  A healthy lifestyle should start from now and also for your
+                  skin health. There are some...
+                </p>
+                <button class="button__light">
+                  Read more
+                  <i
+                    class="bx bx-right-arrow-alt button__icon button__icon--right"
+                  ></i>
+                </button>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="article__button flex">
+            <button type="button" class="button__secondary">View all</button>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Contact us =====-->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="section__title text-center">Contact us</h2>
+          <span class="section__subtitle text-center">
+            Have any questions? We’d love to hear from you.
+          </span>
+          <div class="contact__container">
+            <form class="form">
+              <div class="grid form__groups">
+                <div class="form__group">
+                  <label for="name" class="form__label">Your Name</label>
+                  <input type="text" name="name" class="form__input" />
+                </div>
+                <div class="form__group">
+                  <label for="phone" class="form__label">Phone No.</label>
+                  <input type="text" name="phone" class="form__input" />
+                </div>
+              </div>
+              <div class="form__group">
+                <label for="email" class="form__label">Email ID</label>
+                <input type="email" name="email" class="form__input" />
+              </div>
+              <div class="form__group">
+                <label for="message" class="form__label">Your message</label>
+                <textarea
+                  name="message"
+                  class="form__textarea"
+                  id="message"
+                  cols="30"
+                  rows="8"
+                ></textarea>
+              </div>
+              <div class="form__submit flex">
+                <input
+                  type="submit"
+                  class="button__secondary"
+                  value="Send Message"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== Footer ======-->
+    <footer class="footer section" id="footer">
+      <div class="container footer__container grid">
+        <div class="footer__content">
+          <a href="" class="logo flex">
+            <div class="logo__img logo__img--blue flex">T</div>
+            <h2 class="logo__text logo__text--white">Trafalgar</h2>
+          </a>
+          <p class="footer__description">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <p class="footer__copy">
+            &#169; Trafalgar PTY LTD 2020. All rights reserved
+          </p>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Company</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> About </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Testimonials</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> Find a doctor </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> Apps </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Region</h3>
+          <ul>
+            <li class="footer__item">Indonesia</li>
+            <li class="footer__item">Singapore</li>
+            <li class="footer__item">Hongkong</li>
+            <li class="footer__item">Canada</li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Help</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> Help center</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact support</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Instructions</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">How it works</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== Swiper Js =======-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--======= Scroll Reavel =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

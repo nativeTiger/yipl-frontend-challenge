@@ -1,0 +1,24 @@
+// font mixins
+@mixin font($size, $weight, $color, $height) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $height;
+}
+
+// section title
+@mixin title($color) {
+  margin-bottom: $m-3;
+  position: relative;
+  @include font($h1-font-size, $font-bold, $color, 3.5rem);
+  &::after {
+    content: "";
+    width: 3.5rem;
+    display: block;
+    margin-top: 0.75rem;
+    border: 0.125rem solid $color;
+    border-radius: 0.313rem;
+    position: absolute;
+    left: calc(100% - (50% + $m-3));
+  }
+}

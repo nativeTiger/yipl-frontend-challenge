@@ -1,0 +1,95 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $white-color;
+  z-index: $z-fixed;
+  .nav {
+    height: $header-height;
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+      align-items: center;
+      column-gap: 2.5rem;
+    }
+    &__link {
+      color: $gray-light-color;
+      font-weight: $font-bold;
+      font-size: $small-font-size;
+      line-height: 1.438rem;
+      opacity: 0.5;
+      transition: 0.3s;
+
+      &:hover {
+        color: $black-color;
+        font-weight: $font-bold;
+        opacity: 1;
+      }
+
+      &--active {
+        color: $black-color;
+        font-weight: $font-bold;
+        opacity: 1;
+      }
+    }
+    &__toggle {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 846px) {
+  .nav {
+    &__toggle {
+      display: block !important;
+    }
+    &__list {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      padding: $p-3 0 $p-2;
+      background-color: $white-color;
+      text-align: center;
+      box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+      border-radius: 0 0 1rem 1rem;
+      z-index: $z-fixed;
+      flex-direction: column;
+      row-gap: 0.5rem;
+    }
+  }
+}
+
+.show-menu {
+  top: 3rem;
+}
+
+.scroll-header {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+}
+
+.scroll {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: $blue-color;
+  color: $white-color;
+  padding: $p-3;
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  z-index: $z-fixed;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  &__icon {
+    font-size: 1.5rem;
+  }
+  &__show {
+    visibility: visible;
+    bottom: 1.5rem;
+  }
+}

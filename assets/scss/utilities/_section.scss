@@ -1,0 +1,19 @@
+.section {
+  padding: 5rem 0 2.5rem;
+  &__title {
+    @include title($black-color);
+    &--white {
+      @include title($white-color);
+    }
+    &--left {
+      &::after {
+        left: 0;
+      }
+    }
+  }
+  &__subtitle {
+    @include font($small-font-size, $font-thin, $gray-color, 1.875rem);
+    display: block;
+    margin: $m-6 0;
+  }
+}

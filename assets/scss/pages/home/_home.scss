@@ -1,0 +1,13 @@
+.home {
+  margin-top: $header-height;
+  &__container {
+    gap: 3.5rem;
+  }
+  &__title {
+    @include font($h1-font-size, $font-bold, $black-color, 3rem);
+  }
+  &__subtitle {
+    @include font($small-font-size, $font-thin, $gray-color, 1.5rem);
+    margin: $m-3 0;
+  }
+}

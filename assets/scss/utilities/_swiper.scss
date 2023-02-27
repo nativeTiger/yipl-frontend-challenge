@@ -1,0 +1,27 @@
+.swiper {
+  &__customer {
+    padding: 2rem 0;
+  }
+}
+
+.swiper-pagination {
+  bottom: -4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: $white-color;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  height: 2rem;
+  width: 2rem;
+  color: $white-color;
+  border-radius: 50%;
+  background-color: $blue-color;
+  padding: 1rem;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  &::after {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,39 @@
+.footer {
+  background: url("/assets/images/background3.svg") no-repeat left bottom,
+    url("/assets/images/background3.svg") no-repeat right top,
+    linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  color: $white-color;
+
+  &__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
+  }
+
+  &__description,
+  &__link,
+  &__item {
+    @include font($small-font-size, $font-thin, $white-color, 1.75rem);
+  }
+
+  &__title {
+    @include font($h3-font-size, $font-bold, $white-color, 3.75rem);
+  }
+
+  &__copy {
+    @include font($normal-font-size, $font-thin, $white-color, 1.75rem);
+  }
+
+  &__link {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__description {
+    padding: $p-3 0 $p-4;
+  }
+
+  &__item {
+    padding-bottom: $p-1;
+  }
+}

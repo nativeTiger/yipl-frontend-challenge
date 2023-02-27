@@ -1,0 +1,48 @@
+/*=============== VARIABLES CSS ===============*/
+
+$header-height: 4rem;
+
+/*========== Colors ==========*/
+$white-color: #ffffff;
+$blue-color: #458ff6;
+$blue-alt-color: #3772c2;
+$black-color: #000000;
+$gray-color: #7d7987;
+$gray-light-color: #1f1534;
+$dark-blue-color: #233348;
+
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+$body-font: "Mulish", sans-serif;
+$biggest-font-size: 3rem; //48px
+$h1-font-size: 2.25rem; //36px
+$h2-font-size: 1.5rem; // 24px
+$h3-font-size: 1.313rem; // 21 px
+$normal-font-size: 1rem; // 16px
+$small-font-size: 1.125rem; // 18px
+
+/*========== Font weight ==========*/
+$font-thin: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+/*========= Margins ===============*/
+
+$m-1: 0.5rem;
+$m-2: 1rem;
+$m-3: 1.5rem;
+$m-4: 2rem;
+$m-5: 2.5rem;
+$m-6: 3rem;
+
+/*========= Paddings ===============*/
+$p-1: 0.5rem;
+$p-2: 1rem;
+$p-3: 1.5rem;
+$p-4: 2rem;
+$p-5: 2.5rem;
+$p-6: 3rem;
+
+/*========== z index ==========*/
+$z-fixed: 100;
