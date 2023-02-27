@@ -521,7 +521,7 @@ button {
 }
 
 .article {
-  background: url("/assets/images/background3.svg") no-repeat 8% 25%, url("/assets/images/background2.svg") no-repeat right;
+  background: url("../../../images/background3.svg") no-repeat 8% 25%, url("../../../images/background2.svg") no-repeat right;
 }
 .article__container {
   margin-top: 3rem;
