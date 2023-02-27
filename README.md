@@ -8,6 +8,6 @@
 
 ### Package Used
 
-    [Boxicons](https://boxicons.com/)
-    [Swiper Js](https://swiperjs.com/)
-    [Scroll Reveal](https://scrollrevealjs.org/)
+    [Boxicons](https://boxicons.com)
+    [Swiper Js](https://swiperjs.com)
+    [Scroll Reveal](https://scrollrevealjs.org)
