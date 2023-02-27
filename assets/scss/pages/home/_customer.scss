@@ -1,9 +1,9 @@
 .customer {
-  background: url("/assets/images/background3.svg") no-repeat 6% 80%;
+  background: url("../../../images/background3.svg") no-repeat 6% 80%;
   &__container {
     border-radius: 1.5rem;
     padding: $p-5 $p-3;
-    background: url("/assets/images/background3.svg") no-repeat 104% top,
+    background: url("../../../images/background3.svg") no-repeat 104% top,
       linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   }
   &__content {

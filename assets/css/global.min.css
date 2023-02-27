@@ -115,7 +115,7 @@
 }
 @media screen and (min-width: 960px) {
   .home {
-    background: url("/assets/images/background3.svg") no-repeat -4% 25%;
+    background: url("../../images/background3.svg") no-repeat -4% 25%;
   }
   .home__container,
 .leading__container,
@@ -389,7 +389,7 @@ button {
 }
 
 .footer {
-  background: url("/assets/images/background3.svg") no-repeat left bottom, url("/assets/images/background3.svg") no-repeat right top, linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  background: url("../../images/background3.svg") no-repeat left bottom, url("../../images/background3.svg") no-repeat right top, linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
   color: #ffffff;
 }
 .footer__container {
@@ -445,7 +445,7 @@ button {
 }
 
 .services {
-  background: url("/assets/images/background1.svg") no-repeat left;
+  background: url("../../../images//background1.svg") no-repeat left;
 }
 .services__container {
   row-gap: 2.5rem;
@@ -475,19 +475,19 @@ button {
 }
 
 .mobile {
-  background: url("/assets/images/background3.svg") no-repeat 104% top;
+  background: url("../../../images/background3.svg") no-repeat 104% top;
 }
 .mobile__container {
   gap: 3.5rem;
 }
 
 .customer {
-  background: url("/assets/images/background3.svg") no-repeat 6% 80%;
+  background: url("../../../images/background3.svg") no-repeat 6% 80%;
 }
 .customer__container {
   border-radius: 1.5rem;
   padding: 2.5rem 1.5rem;
-  background: url("/assets/images/background3.svg") no-repeat 104% top, linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  background: url("../../../images/background3.svg") no-repeat 104% top, linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
 }
 .customer__content {
   padding-top: 1.5rem;
