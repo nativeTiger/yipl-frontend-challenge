@@ -1,6 +1,8 @@
 .article {
-  background: url("../../../images/background3.svg") no-repeat 8% 25%,
-    url("../../../images/background2.svg") no-repeat right;
+  background: url("https://github.com/nativeTiger/yipl-frontend-challenge/blob/main/assets/images/background3.svg")
+      no-repeat 8% 25%,
+    url("https://github.com/nativeTiger/yipl-frontend-challenge/blob/main/assets/images/background2.svg")
+      no-repeat right;
   &__container {
     margin-top: $m-6;
     gap: 3.5rem;
